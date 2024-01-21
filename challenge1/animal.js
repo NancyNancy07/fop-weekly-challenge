@@ -1,8 +1,11 @@
 let x = 200;
 let y = 200;
+
 background(255, 255, 255);
 noStroke();
-// head
+
+///// head////////
+
 // face
 fill(150, 50, 0);
 ellipse(x, y, 200);
@@ -35,6 +38,7 @@ fill(255, 192, 203);
 noStroke();
 ellipse(x - 60, y, 30);
 ellipse(x + 60, y, 30);
+
 // Ears
 fill(150, 50, 0);
 noStroke();
